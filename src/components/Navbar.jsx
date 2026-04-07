@@ -25,15 +25,15 @@ export default function Navbar() {
     { title: "Home", path: "/" },
     { title: "Skills", path: "/skills" },
     { title: "Timeline", path: "/timeline" },
-    { title: "Projects", path: "/projects" },
-    { title: "Contact", path: "/contact" },
+    //{ title: "Projects", path: "/projects" },
+    //{ title: "Contact", path: "/contact" },
   ];
 
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
-      <Typography variant="h6" sx={{ my: 2 }}>
-        Frontend Engineer - ReactJS
-      </Typography>
+      {/* <Typography variant="h6" sx={{ my: 2 }}>
+        Data Engineer
+      </Typography> */}
       <List>
         {navLinks.map((item) => (
           <ListItem button key={item.title} component={Link} to={item.path}>
@@ -50,8 +50,8 @@ export default function Navbar() {
       sx={{ backgroundColor: "#fff", color: "rgb(27, 26, 26)" }}>
         <Toolbar>
           {/* Logo */}
-          <Typography variant="h6" sx={{ flexGrow: 1 , fontWeight: "bold" }}>
-            Frontend Engineer - ReactJS
+          <Typography variant="h6" sx={{ flexGrow: 1 , fontWeight: "bold" , fontSize: "30px" }}>
+            Data Engineer
           </Typography>
 
           {/* Desktop Links */}
@@ -60,7 +60,8 @@ export default function Navbar() {
               display: { xs: "none", md: "flex" },
               justifyContent: "center",   // ✅ center horizontally
               flexGrow: 1,                 // ✅ push links to center
-              gap: 3                       // ✅ spacing between items
+              gap: 3   ,                    // ✅ spacing between items
+
               }}
           >
             {navLinks.map((item) => (
@@ -68,7 +69,7 @@ export default function Navbar() {
                 key={item.title}
                 component={Link}
                 to={item.path}
-                sx={{ color: "rgb(27, 26, 26)", fontWeight: "bold" }}
+                sx={{ color: "rgb(27, 26, 26)", fontWeight: "bold", fontSize: "large" }}
               >
                 {item.title}
               </Button>

@@ -7,20 +7,20 @@ export default function Footer() {
       <div className="footer-container">
         {/* Social Links */}
         <div className="footer-links">
-          <a href="https://github.com/SridharshiniArumugam" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/prasanna-kumar-g" target="_blank" rel="noopener noreferrer">
             GitHub
           </a>
-          <a href="https://www.linkedin.com/in/sridharshini-arumugam-b22088247/" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/prasanna-kumar-ganesan-66641575/" target="_blank" rel="noopener noreferrer">
             LinkedIn
           </a>
-          <a href="mailto:sridharshiniece@gmail.com">
+          <a href="mailto:prasannags22@gmail.com">
             Email
           </a>
         </div>
 
         {/* Copyright */}
         <p className="footer-copy">
-          © {new Date().getFullYear()} Sridharshini. All rights reserved.
+          © {new Date().getFullYear()} Prasanna Kumar Ganesan. All rights reserved.
         </p>
       </div>
     </footer>

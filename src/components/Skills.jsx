@@ -3,31 +3,50 @@ import "./Skills.css";
 import { motion } from "framer-motion";
 
 const skills = [
-  { name: "React", description: "Component-based UI library" },
-  {name:"React Hooks", description:"State and lifecycle management in functional components"},
-  {name:"context API", description:"Global state management without prop drilling"},
-  {name:"React Highcharts", description:"Data visualization in charts" },
-  { name: "Redux Toolkit", description: "State management made simple" },
-  { name: "Jest", description: "Testing framework for JavaScript" },
-  { name: "ExcelJS", description: "Excel file manipulation in JS" },
-  { name: "JavaScript (ES6+)", description: "Modern JavaScript features" },
-  { name: "HTML5 & CSS3", description: "Building responsive layouts" },
-  {name:"SCSS", description:"CSS preprocessor for better styling"},
-  {name:"Material UI", description:"React UI framework for faster development"},
-  {name:"Bootstrap", description:"CSS framework for responsive design"},
-  {name:"Axios", description:"Promise-based HTTP client for API calls"},
-  {name:"fetch API", description:"Native browser API for making HTTP requests"},
-  { name: "REST APIs", description: "Integrating backend services" },
-  {name:"EmailJS", description:"Sending emails from client-side applications"},
-  {name:"Figma", description:"Design and prototyping tool"},
-  {name:"VS Code", description:"Code editor with powerful extensions"},
-  {name:"react-google-recaptcha", description:"Integrating Google reCAPTCHA in React"},
-  { name: "Git & GitHub", description: "Version control and collaboration" },
-  { name: "Webpack & Babel", description: "Module bundling and transpiling" },
-  { name: "Agile Methodologies", description: "Scrum, Kanban, and iterative development" },
-  { name: "Performance Optimization", description: "Code splitting, lazy loading, memoization" },
-  { name: "Cross-Browser Compatibility", description: "Ensuring consistent experience across browsers" },
+  // 🌐 Cloud Platforms
+  { name: "Azure Databricks", description: "Unified analytics platform for big data and AI workloads." },
+  { name: "Azure Data Factory (ADF)", description: "Cloud-based ETL service for data integration and orchestration." },
+  { name: "Azure Data Lake Storage Gen2", description: "Scalable storage for big data analytics with hierarchical namespace." },
+
+  // 🔧 Data Engineering
+  { name: "ETL / ELT", description: "Data extraction, transformation, and loading for pipelines." },
+  { name: "Lakehouse Architecture", description: "Combines data lake flexibility with warehouse performance." },
+  { name: "Delta Lake", description: "Reliable data lake with ACID transactions and schema enforcement." },
+  { name: "Delta Live Tables (DLT)", description: "Declarative pipelines for real-time data processing." },
+  { name: "Medallion Architecture", description: "Layered data design (Bronze, Silver, Gold) for scalability." },
+  { name: "Data Modelling", description: "Designing logical and physical structures for data systems." },
+  { name: "Data Warehousing", description: "Centralized storage for structured analytics and reporting." },
+
+  // 💻 Programming
+  { name: "PySpark", description: "Distributed data processing with Python APIs for Spark." },
+  { name: "Python", description: "Versatile programming language for data engineering and automation." },
+  { name: "SQL / Spark SQL", description: "Query languages for relational and distributed datasets." },
+  { name: "Unix", description: "Command-line environment for scripting and automation." },
+  { name: "PL/SQL", description: "Oracle procedural extensions for SQL." },
+  { name: "PL/pgSQL", description: "PostgreSQL procedural language for advanced queries." },
+
+  // 🗄️ Databases
+  { name: "Oracle", description: "Enterprise-grade relational database system." },
+  { name: "PostgreSQL", description: "Open-source relational database with advanced features." },
+
+  // ⚙️ Orchestration & CI/CD
+  { name: "Lakeflow Declarative Pipelines", description: "Declarative orchestration for Databricks workflows." },
+  { name: "Lakeflow Jobs", description: "Job scheduling and execution in Databricks Lakehouse." },
+  { name: "Databricks Asset Bundles (DAB)", description: "Reusable deployment packages for Databricks projects." },
+  { name: "Git", description: "Version control system for collaborative development." },
+  { name: "GitHub Actions", description: "CI/CD automation workflows in GitHub." },
+  { name: "GitLab CI/CD", description: "Pipeline automation for GitLab projects." },
+
+  // 🔒 Governance & Optimization
+  { name: "Unity Catalog", description: "Centralized governance for data and AI assets in Databricks." },
+  { name: "Query Optimization", description: "Improving SQL performance with efficient execution plans." },
+  { name: "Performance Tuning", description: "Optimizing workloads for speed and resource efficiency." },
+  { name: "Partitioning", description: "Splitting datasets for faster queries and parallelism." },
+  { name: "Z-Ordering", description: "Optimized data layout for faster queries in Delta Lake." },
+  { name: "Vacuum", description: "Cleanup of obsolete files in Delta tables." },
+  { name: "Liquid Clustering", description: "Adaptive clustering for balanced data distribution." },
 ];
+
 
 export default function Skills() {
   return (

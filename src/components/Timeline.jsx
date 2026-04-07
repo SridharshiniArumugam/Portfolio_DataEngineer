@@ -4,29 +4,37 @@ import "./Timeline.css";
 
 const timeline = [
   {
-    year: "Aug 2024 - Present",
-    role: "Senior Analyst at Accenture, Chennai",
+    year:  "Apr 2021 – Present",
+    role: "Senior Associate - Cognizant",
     description: [
-      "Developed a scalable sales forecasting UI with help of Machine Learning Team and used their sales predictions for projecting multi-year business trends.",
-      "Built reusable and modular React components improving development efficiency by 30%.",
-      "Integrated REST APIs using Axios and managed global state with Redux Toolkit.",
-      "Implemented responsive UI based on Figma designs ensuring pixel-perfect delivery.",
-      "Developed dynamic data visualization using charts for actual vs forecast analysis using Material UI.",
-      "Increased performance through component optimization and lazy loading.",
-      "Wrote unit test cases using Jest improving code quality and reliability.",
-      "Collaborated with cross-functional teams in Agile sprint cycles."
+      " Architected and delivered ETL/ELT platforms — Azure Data Factory, PySpark ADLS Gen2; automated production data flows and improved analytics availability.",
+      "Led architecture and rollout of a Bronze–Silver–Gold Lakehouse on Azure Databricks with Delta Lake, standardizing ingestion and supporting high‑volume reporting.",
+      "Orchestrated Spark performance improvements with partitioning, caching,Z‑ordering, clustering, and query tuning, reducing pipeline runtime 50% and lowering compute costs.",
+      "Established data governance with Unity Catalog, enabling end‑to‑end lineage and RBAC to secure sensitive datasets and support audits.",
+      "Developed AI-based document processing solution using Databricks IDP (AI_EXTRACT, AI_PARSE) for unstructured PDF ingestion, achieving ~60% reduction in manual processing effort, ~80% error reduction, and ~120 hours/month operational savings in pilot deployment.",
+      "Deployed production ETL orchestration and CI/CD — Lakeflow Declarative Pipelines, Lakeflow Jobs, DLT, and Databricks Asset Bundles (DAB) for versioned deployments."
     ]
   },
   {
-    year: "Dec 2020 - Aug 2024",
-    role: "Associate at Cognizant, Chennai",
+    year: "Jan 2019 – Mar 2021",
+    role: "Associate Consultant – Capgemini",
     description: [
-      "Designed and developed reusable UI components for enterprise application.",
-      "Implemented API integrations using Fetch and handled JSON/XML responses.",
-      "Built responsive layouts using Flexbox and CSS.",
-      "Managed application state using Context API and React Hooks.",
-      "Improved application performance and cross-browser compatibility.",
-      "Developed routing using React Router for seamless navigation."
+      "Automated data ingestion via SOAP APIs/web services, reducing manual effort by 80%.",
+      "Migrated Oracle Forms 10g → 12c, achieving 99.9% uptime during modernization.",
+      "Optimized queries and indexing using execution‑plan analysis to improve query performance.",
+      "Migrated databases on‑prem → OCI, reducing infrastructure costs 30%.",
+      "Designed and maintained relational data models to ensure data integrity and normalization.",
+      "Developed and supported data integration workflows for reliable validation, transformation, and delivery across enterprise systems."
+    ]
+  },
+  {
+    year: "Aug 2016 – Jan 2019",
+    role: "Senior Process Associate – TCS",
+    description: [
+      "Performed technical design and analysis, producing schema designs, data mappings, and implementation specs for development and QA.",
+      "Optimized SQL and indexing, reducing query execution time 40% through execution‑plan analysis and targeted tuning.",
+      "Migrated Oracle → PostgreSQL (schema conversion, data migration scripts, validation, and cutover support) as a core developer on the migration team.",
+      "Developed stored procedures and functions in PL/SQL / PL/pgSQL to encapsulate business logic and improve maintainability."
     ]
   }
 ];
